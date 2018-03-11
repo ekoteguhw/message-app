@@ -4,7 +4,7 @@
 			<%= message.content %>
 		</p>
 		<p class="time">
-			<%= message.created_at %>
+			<%= message.created_at.to_formatted_s(:long)  %>
 		</p>
 		<p>
 			<%= link_to 'Edit Message', edit_message_path(message), :class => 'button-edit' %>

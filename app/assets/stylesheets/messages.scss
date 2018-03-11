@@ -38,7 +38,6 @@ body {
 
 .messages a,
 .create .actions input {
-  background-color: #f2580b;
   border: none;
   color: #fff;
   cursor: pointer;
@@ -64,7 +63,7 @@ p.time {
 }
 
 .button {
-  background-color: #f2580b;
+  background-color: #0080ff;
   border: none;
   color: #fff;
   cursor: pointer;
@@ -75,7 +74,7 @@ p.time {
 }
 
 .button:hover {
-  background-color: #c24609;
+  background-color: #0000cc;
   transition: background-color 0.5s;
 }
 
@@ -107,7 +106,7 @@ p.time {
 }
 
 .button-delete:hover {
-  background-color: #c24609;
+  background-color: #c04354;
   transition: background-color 0.5s;
 }
 
