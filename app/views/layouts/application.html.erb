@@ -6,9 +6,23 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script type="text/javascript" src="communication.js"></script>
   </head>
 
   <body>
-    <%= yield %>
+    <div class="header">
+      <div class="container">
+        <a href="/messages">
+          <img src="http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/logo-1m.svg">
+        </a>
+        <h1>Messenger</h1>
+      </div>
+    </div>
+
+    <div class="messages">
+      <div class="container">
+        <%= yield %>
+      </div>
+    </div>
   </body>
 </html>
