@@ -6,6 +6,10 @@
 		<p class="time">
 			<%= message.created_at %>
 		</p>
+		<p>
+			<%= link_to 'Edit Message', edit_message_path(message), :class => 'button-edit' %>
+			<%= link_to 'Delete Message', message_path(message), method: :delete, data: {confirm: 'Are you sure?'}, :class => 'button-delete' %>
+		</p>
 	</div>
 <% end %>
-<%= link_to 'New Message', "messages/new", :class => 'button' %>
+<%= link_to 'New Message', new_message_path, :class => 'button' %>

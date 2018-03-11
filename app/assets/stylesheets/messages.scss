@@ -79,6 +79,38 @@ p.time {
   transition: background-color 0.5s;
 }
 
+.button-edit {
+  background-color: #617c93;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+  padding: 12px 24px;
+  transition: background-color 0.5s;
+}
+
+.button-edit:hover {
+  background-color: #4d6375;
+  transition: background-color 0.5s;
+}
+
+.button-delete {
+  background-color: #f0546a;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+  padding: 12px 24px;
+  transition: background-color 0.5s;
+}
+
+.button-delete:hover {
+  background-color: #c24609;
+  transition: background-color 0.5s;
+}
+
 form label {
   display: block;
   width: 100%;
